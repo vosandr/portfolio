@@ -29,10 +29,9 @@ jobs:
               run: yarn
               shell: bash
             - name: Build with Vite
-              run: yarn build -- --base "${{ steps.pages.outputs.base_path }}"
+              run: yarn build
             - name: Setup Pages
               uses: actions/configure-pages@v4
-
             - name: Upload artifact
               uses: actions/upload-pages-artifact@v3
               with:

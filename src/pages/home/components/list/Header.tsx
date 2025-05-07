@@ -9,9 +9,7 @@ import WatchContacts from 'widgets/WatchContacts'
 export default function () {
   return (
     <header>
-      <h1>
-        Основная страница Vosandr
-      </h1>
+      <h1>Основная страница Vosandr</h1>
     </header>
   )
 }

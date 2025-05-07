@@ -6,12 +6,14 @@ import Professional from 'pages/professional/Professional'
 export default function () {
     return (
         <div className="prose-h1:text-2xl prose-h2:text-xl prose-h1:p-4 prose-h3:text-lg">
+            <Router base="/portfolio/">
             <Switch>
-                <Route path="/" component={Home} />
-                <Route path="/talking/" component={Talking}/>
-                <Route path="/professional/" component={Professional}/>
+                <Route component={Home} />
+                <Route path="talking/" component={Talking}/>
+                <Route path="professional/" component={Professional}/>
                 <Route component={NotFound} />
             </Switch>
+            </Router>
         </div>
     )
 }

@@ -1,6 +1,6 @@
 // import Block from "widgets/Form/Block"
-import Blocks from 'widgets/Form/Blocks'
 import Block from 'widgets/Form/BlockWithBorder'
+import Blocks from 'widgets/Form/Blocks'
 import Border from 'widgets/Form/Border'
 
 export default function () {
@@ -9,7 +9,6 @@ export default function () {
             <h1>My Professional Roadmap</h1>
             <Blocks>
                 <Block>
-                    {' '}
                     <h2>Apps</h2>
                     <h3>Flutter</h3>
                     <ul>
@@ -19,16 +18,22 @@ export default function () {
                         <li>dart:io</li>
                     </ul>
                     <ul className="pt-4">
-                    <li>
-                    <a className="btn btn-outline btn-sm" href="https://gitflic.ru/project/tengocommand/tengo">
-                        Tengo
-                    </a>
-                    </li>
-                    <li>
-                    <a className="btn btn-outline btn-sm" href="https://www.rustore.ru/catalog/developer/fqglzx">
-                        Projects on Rustore
-                    </a>
-                    </li>
+                        <li>
+                            <a
+                                className="btn btn-outline btn-sm"
+                                href="https://gitflic.ru/project/tengocommand/tengo"
+                            >
+                                Tengo
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                className="btn btn-outline btn-sm"
+                                href="https://www.rustore.ru/catalog/developer/fqglzx"
+                            >
+                                Projects on Rustore
+                            </a>
+                        </li>
                     </ul>
                 </Block>
                 <Block>
@@ -43,22 +48,28 @@ export default function () {
                                 <li>Vite</li>
                                 <li>Tsx</li>
                                 <ul className="pt-4">
-                                <li>
-                                <a className="btn btn-outline btn-sm" href="https://github.com/Borodutch/frontend-starter">
-                                    Based on this frontend starter
-                                </a>
-                                </li>
-                                {/* <li>
+                                    <li>
+                                        <a
+                                            className="btn btn-outline btn-sm"
+                                            href="https://github.com/Borodutch/frontend-starter"
+                                        >
+                                            Based on this frontend starter
+                                        </a>
+                                    </li>
+                                    {/* <li>
                                 <a className="btn btn-outline btn-sm" href="">
                                     The knowledge that has been gained in this
                                     area
                                 </a>
                                 </li> */}
-                                <li>
-                                <a className="btn btn-outline btn-sm" href="https://github.com/vosandr/portfolio">
-                                    This project
-                                </a>
-                                </li>
+                                    <li>
+                                        <a
+                                            className="btn btn-outline btn-sm"
+                                            href="https://github.com/vosandr/portfolio"
+                                        >
+                                            This project
+                                        </a>
+                                    </li>
                                 </ul>
                             </Border>
                             <Border>

@@ -6,7 +6,7 @@ import Professional from 'pages/professional/Professional'
 import { baseRoute } from 'consts/baseRoute'
 export default function () {
     return (
-        <div className="prose-h1:text-2xl prose-h2:text-xl prose-h1:p-4 prose-h3:text-lg">
+        <div className="prose-h1:text-2xl prose-h2:text-xl prose-headings:p-2 prose-h3:text-lg">
             <Router base={baseRoute}>
             <Switch>
                 <Route component={Home} />

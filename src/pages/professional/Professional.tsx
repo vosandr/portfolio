@@ -37,7 +37,7 @@ export default function () {
                     </ul>
                 </Block>
                 <Block>
-                    <h2>Sites</h2>
+                    <h2>Web</h2>
                     <ul>
                         <li>
                             <h3>TypeScript Stack</h3>
@@ -48,14 +48,14 @@ export default function () {
                                 <li>Vite</li>
                                 <li>Tsx</li>
                                 <ul className="pt-4">
-                                    <li>
+                                    {/* <li>
                                         <a
                                             className="btn btn-outline btn-sm"
                                             href="https://github.com/Borodutch/frontend-starter"
                                         >
                                             Based on this frontend starter
                                         </a>
-                                    </li>
+                                    </li> */}
                                     {/* <li>
                                 <a className="btn btn-outline btn-sm" href="">
                                     The knowledge that has been gained in this
@@ -67,7 +67,7 @@ export default function () {
                                             className="btn btn-outline btn-sm"
                                             href="https://github.com/vosandr/portfolio"
                                         >
-                                            This project
+                                            Portfolio
                                         </a>
                                     </li>
                                 </ul>
@@ -84,8 +84,13 @@ export default function () {
                         <h3>DevSecOps (In Progress)</h3>
                         <li>Ansible</li>
                         <li>Docker/Podman</li>
-                        <li>GitHub Webhooks</li>
+                        <li>Kubernetes/Docker Swarm</li>
+                        <li>GitHub Webhooks/Docker compose</li>
                         <li>Git</li>
+                        <li>Dbs:</li>
+                        <Border>
+                            <li>MondoDb</li>
+                        </Border>
                     </ul>
                 </Block>
             </Blocks>
